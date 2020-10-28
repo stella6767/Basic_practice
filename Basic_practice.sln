@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice2", "Practice2\Prac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice3", "Practice3\Practice3.vcxproj", "{B42CAF76-D392-42D2-A55D-10901C69735D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "알고리즘 연습", "알고리즘 연습\알고리즘 연습.vcxproj", "{DB85485D-85F4-471A-8DB4-23487689319E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{B42CAF76-D392-42D2-A55D-10901C69735D}.Release|x64.Build.0 = Release|x64
 		{B42CAF76-D392-42D2-A55D-10901C69735D}.Release|x86.ActiveCfg = Release|Win32
 		{B42CAF76-D392-42D2-A55D-10901C69735D}.Release|x86.Build.0 = Release|Win32
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Debug|x64.ActiveCfg = Debug|x64
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Debug|x64.Build.0 = Debug|x64
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Debug|x86.Build.0 = Debug|Win32
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Release|x64.ActiveCfg = Release|x64
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Release|x64.Build.0 = Release|x64
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Release|x86.ActiveCfg = Release|Win32
+		{DB85485D-85F4-471A-8DB4-23487689319E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
