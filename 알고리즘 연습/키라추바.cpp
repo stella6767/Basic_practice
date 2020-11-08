@@ -93,19 +93,13 @@ int main()
     vector<int> a, b, result;
     string number;
 
-    cout << "첫번째 정수 입력: ";
     cin >> number;
     for (int i = number.size() - 1; i >= 0; i--)
         a.push_back(number[i] - '0');
-    cout << "두번째 정수 입력: ";
     cin >> number;
     for (int i = number.size() - 1; i >= 0; i--)
         b.push_back(number[i] - '0');
-    result = multiply(a, b);
-    cout << "multiply 결과:";
-    for (int i = result.size() - 1; i >= 0; i--)
-        cout << result[i];
-    cout << endl;
+ 
     result = karatsuba(a, b);
     cout << "karatsuba 결과:";
     for (int i = result.size() - 1; i >= 0; i--)
