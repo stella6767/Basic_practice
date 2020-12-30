@@ -21,6 +21,7 @@ float PQ(int i, int j) {
 			for (int j = 0; j < 6; j++) cout << gPQ[i][j] << " ";
 			cout << endl;
 		}
+		//return 0;
 		return 0;
 	}
 
