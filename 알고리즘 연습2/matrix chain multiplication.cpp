@@ -12,9 +12,9 @@ int T[MAX_SIZE][MAX_SIZE];
 
 int main()
 {
-    int size = 5;
+    int size = 6;
 
-    c[0] = 10, c[1] = 1, c[2] = 10, c[3] = 20, c[4] = 5; c[5] = 10;
+    c[0] = 9, c[1] = 3, c[2] = 12, c[3] = 2, c[4] = 10; c[5] = 4;
 
     for (int diagonal = 0; diagonal < size; diagonal++)
     {
@@ -61,5 +61,8 @@ int main()
     }
 
 
+
+
+    cout << 9 * 3 * 12;
     return 0;
 }
